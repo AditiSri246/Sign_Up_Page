@@ -1,0 +1,98 @@
+body{
+    /* background-image: radial-gradient(rgba(150,51,255,255),rgb(237, 188, 237),rgba(150, 51, 255, 255)); */
+    /* background-image: conic-gradient(rgba(150,51,255,255),rgb(237, 188, 237),rgba(150,51,255,255)); */
+    /* background-image: linear-gradient(to right,rgba(150,51,255,255),rgb(237, 188, 237),rgba(150,51,255,255)); */
+    background-color: rgba(150,51,255,255);
+}
+
+img{
+    width: 20px;
+    height: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.container{
+    position: absolute;
+    top: 15%;
+    left: 37%;
+    background-color: rgba(255,255,255,255);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 450px;
+    width: 350px;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 20px 0px rgba(106,29,205,255), -10px -10px 20px 0px rgba(106,29,205,255);
+}
+
+.container h5{
+    margin-top: 15px;
+    margin-bottom: 30px;
+    font-size: 30px;
+}
+
+
+.input{
+    margin: 25px;
+    height: 40px;
+    width: 260px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-radius: 20px;
+    box-shadow: 2px 2px 25px 2px rgba(211,223,247,255), -2px -2px 20px 5px rgba(211,223,247,255);
+}
+
+input:focus{
+    outline: none;
+}
+
+.input input{
+    border: 0px;
+    margin-right: 10px;
+    width: 80%;
+    height: 80%;
+}
+
+.bottom{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 25px;
+}
+
+.bottom .bottom-text{
+    margin: 10px;
+}
+
+.bottom .bottom-text2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.bottom .bottom-text a{
+    color: purple;
+    text-decoration: none;
+}
+
+.bottom .bottom-text button{
+    font-size: 10px;
+    padding: 10px 25px 10px 25px;
+    border-radius: 20px;
+    border: 0px;
+    color: white;
+    background-image: linear-gradient(to bottom right, rgba(138,42,227,255), rgba(58,1,242,255));
+}
+
+.bottom .bottom-text button:hover{
+    cursor: pointer;
+    scale: 1.01;
+}
+
+.bottom .bottom-text span{
+    font-size: 15px;
+    color: rgb(163, 157, 157);
+}
